@@ -1,0 +1,34 @@
+{
+  "name": "genpark-vertical-wealth-management-copilot-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Vertical wealth management portfolio analysis and client report generator.",
+  "author": "genpark",
+  "category": "finance",
+  "tags": [
+    "wealth-management",
+    "fintech",
+    "portfolio-analysis",
+    "ph-july23"
+  ],
+  "inputs": {
+    "client_id": {
+      "type": "string"
+    },
+    "portfolio_holdings": {
+      "type": "array"
+    }
+  },
+  "outputs": {
+    "asset_allocation": {
+      "type": "object"
+    },
+    "risk_assessment": {
+      "type": "string"
+    },
+    "recommended_rebalance": {
+      "type": "array"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
